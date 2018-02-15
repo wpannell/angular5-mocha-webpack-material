@@ -1,0 +1,70 @@
+/**
+*  UI-REFACTORED
+*    FROM --> ./legacy-web/src/main/sass/content/common/css/v3/partials/_tables.scss
+*    TO   --> ./webapps/shared-web/src/main/assets/css/v3/partials/_tables.scss
+**/
+
+/*------------------------------------*\
+    >TABLES
+\*------------------------------------*/
+
+table, .table-basic {
+  width: 100%;
+  margin: $baseLineHeight 0;
+
+  td, th, .table-column {
+    padding: 10px;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+    font-family: $sansFontFamilyLight;
+  }
+
+  tr.align-top td {
+    vertical-align: top !important;
+  }
+
+  thead, .table-header {
+    border-bottom: 1px solid $lightGray;
+    background-color: $ultraLightGray;
+    background-size: auto;
+    th, .table-column {
+      color: $darkGray;
+      font-family: $sansFontFamilyMedium;
+      @include font-size(15);
+    }
+  }
+  tbody, .table-body {
+    tr, .table-row {
+      padding: 5px 0;
+      border-bottom: 1px solid $lightGray;
+      &.disabled {
+        color: $gray;
+      }
+      &.no-border {
+        border-bottom: 0 none;
+      }
+      td, .table-column {
+        padding: 10px;
+      }
+      &.-thicker {
+        border-bottom-width: 2px;
+      }
+      &.-header {
+        background-color: $tableLightGray;
+        td, th {
+          font-weight: bold;
+          background-color: $tableLightGray;
+        }
+      }
+    }
+  }
+  tfoot, .table-footer {
+    border-top: 1px solid $lightGray;
+    td, .table-column {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    //@extend .disclaimer;
+  }
+}

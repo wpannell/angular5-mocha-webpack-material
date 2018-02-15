@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "AmericanSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-regularitalic.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/assets/content/fonts/american-v2/americansans-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("/assets/content/fonts/american-v2/americansans-bold_italic.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSansLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-light.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSansLight";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-light_italic.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSansMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "AmericanSansMedium";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/assets/content/fonts/american-v2/americansans-medium_italic.woff") format("woff");
+}
+
+
+
+body{
+  font-family: 'American Sans';
+}
+
+input{
+  border-radius:3px;
+}
+
+.container p {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+}
+table thead th {
+  border-bottom: 1px solid #D0DAE0; /* $lightGray; */
+  background-color: #EBEFF0; /* AA Ultra Light Gray $ultraLightGray; */
+  background-size: auto;
+  font-family: "AmericanSansMedium", Calibri, Helvetica, Arial, sans-serif;
+  font-size: 1.07rem;
+}
+table td {
+  font-family: "AmericanSansLight", Helvetica, Arial, sans-serif;
+}
+
+td, th{
+  padding: 10px;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: middle;
+}

@@ -1,0 +1,428 @@
+[
+    {
+        "id": "17126359aea19174c9d0d1051d374e8a",
+        "revision": "1-d41e49b250457247f930fc5b353b8a52",
+        "requestId": "17126359aea19174c9d0d1051d374e8a",
+        "created": "2017-12-07T01:02:58.000+0000",
+        "status": "APPROVED",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": null
+            },
+            "erasure": null
+        },
+        "userName": "test12061300",
+        "dpo": "Gary Meech",
+        "reqAge": 10
+    },
+    {
+        "id": "1ca58fa05a139f0a01793799311239ca",
+        "revision": "1-b369c3d4067832d0044a69adcf748c66",
+        "requestId": "1ca58fa05a139f0a01793799311239ca",
+        "created": "2017-12-07T00:51:43.000+0000",
+        "status": "APPROVED",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": null
+            },
+            "erasure": null
+        },
+        "userName": "test1206",
+        "reqAge": 11
+    },
+    {
+        "id": "2efcd1b8da81db10ffcdb16ebd875115",
+        "revision": "1-2d3f35513252e52aed7b474ef40656c8",
+        "requestId": "2efcd1b8da81db10ffcdb16ebd875115",
+        "created": "2017-12-06T01:52:31.000+0000",
+        "status": "APPROVED",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": null
+            },
+            "erasure": null
+        },
+        "userName": "devanandch",
+        "reqAge": 11
+    },
+    {
+        "id": "43050f1016fe5f3d9b0f7723cfcd23f8",
+        "revision": "1-82e35d4c61b612565b54a534b1cacacb",
+        "requestId": "43050f1016fe5f3d9b0f7723cfcd23f8",
+        "created": "2017-12-08T01:46:26.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "sarahlee",
+        "dpo": "Gary Meech",
+        "reqAge": 11
+    },
+    {
+        "id": "51ec694c102215b434d036eea7316147",
+        "revision": "1-16ad6b565d2649988cb4b65053f6ed17",
+        "requestId": "51ec694c102215b434d036eea7316147",
+        "created": "2017-12-07T00:51:25.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "test1206",
+        "reqAge": 11
+    },
+    {
+        "id": "64db14b84e8e4077758e271aa26c40c9",
+        "revision": "1-84e63834445db486275946a593d7dbfa",
+        "requestId": "64db14b84e8e4077758e271aa26c40c9",
+        "created": "2017-12-01T20:10:23.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "69X62E6",
+                "cupid": "2506107"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "BUNDREN",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "vinothkumar",
+        "reqAge": 15
+    },
+    {
+        "id": "6ec7cbb5454899378639043ff998eef9",
+        "revision": "1-e5c25c1e3a6db2f54abfc6b42e03cd59",
+        "requestId": "6ec7cbb5454899378639043ff998eef9",
+        "created": "2017-12-01T21:23:36.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "69X62E6",
+                "cupid": "2506107"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "Bundren",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "jimbundren",
+        "reqAge": 15
+    },
+    {
+        "id": "6ec7cbb5454899378639043ff9bbfe0b",
+        "revision": "3-8bc7f6edf4d9cd67b2dfb067199b2859",
+        "requestId": "6ec7cbb5454899378639043ff9bbfe0b",
+        "created": "2017-12-01T21:31:18.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "69X62E6",
+                "cupid": "2506107"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": [
+                    {
+                        "id": "041bd821-c8bb-4180-834e-2bfc5c84646f",
+                        "type": null
+                    }
+                ]
+            },
+            "erasure": null
+        },
+        "userName": "jimbundren",
+        "reqAge": 16
+    },
+    {
+        "id": "7a54ad87a99cbf8f895edb7d1dae4d05",
+        "revision": "3-bdce3dd99cb13b4fd271089b8dc2621d",
+        "requestId": "7a54ad87a99cbf8f895edb7d1dae4d05",
+        "created": "2017-12-01T20:10:33.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "69X62E6",
+                "cupid": "2506107"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": [
+                    {
+                        "id": "fc11b0a1-6c8c-474a-8484-55c7d0078b6d",
+                        "type": null
+                    }
+                ]
+            },
+            "erasure": null
+        },
+        "userName": "vinothkumar",
+        "reqAge": 11
+    },  
+    {
+        "id": "b35d8b51cd6ba502a81cdf0bd6a97446",
+        "revision": "1-ce77a617e3c1d29b27e3ec90a66cfe4c",
+        "requestId": "b35d8b51cd6ba502a81cdf0bd6a97446",
+        "created": "2017-12-08T03:45:56.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "test1207",
+        "reqAge": 17
+    },
+    {
+        "id": "b47b36587091277780fa75e5dbf2f323",
+        "revision": "1-69d0102e6c2ed2bf0cb3357022bda965",
+        "requestId": "b47b36587091277780fa75e5dbf2f323",
+        "created": "2017-12-07T01:02:12.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "test12061300",
+        "reqAge": 17
+    },
+    {
+        "id": "c006859677568eeb2b7c9fd7056c6345",
+        "revision": "1-c4ad268a1cc02a7cd61da23ad7d7b30d",
+        "requestId": "c006859677568eeb2b7c9fd7056c6345",
+        "created": "2017-12-06T01:52:15.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "devanandch",
+        "reqAge": 17
+    },
+    {
+        "id": "c4379e1dee1880384aebb754120e51f7",
+        "revision": "1-205a2a21f67e0da96ee16eb10298cb5f",
+        "requestId": "c4379e1dee1880384aebb754120e51f7",
+        "created": "2017-12-07T00:57:10.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "rlolsen123",
+        "reqAge": 18
+    },
+    {
+        "id": "c4379e1dee1880384aebb75412114bf7",
+        "revision": "1-2a8d7b704aaa9a3101f84c6a3c9e1f39",
+        "requestId": "c4379e1dee1880384aebb75412114bf7",
+        "created": "2017-12-07T00:58:02.000+0000",
+        "status": "APPROVED",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": null
+            },
+            "erasure": null
+        },
+        "userName": "rlolsen123",
+        "reqAge": 19
+    },
+    {
+        "id": "d99c18fd6f42c7c86495949f1a95afe6",
+        "revision": "3-38c39f7a61107fe73e42e5ce37c9e2c2",
+        "requestId": "d99c18fd6f42c7c86495949f1a95afe6",
+        "created": "2017-12-08T04:33:24.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": [
+                    {
+                        "id": "a393a911-5e2d-4221-81ba-eb2a45e03b4a",
+                        "type": null
+                    }
+                ]
+            },
+            "erasure": null
+        },
+        "userName": "bfftest1207",
+        "reqAge": 19
+    },
+    {
+        "id": "e8ca97f128688825723f68f352a9d873",
+        "revision": "1-04e3804c5de568bc77311303ff86c6fa",
+        "requestId": "e8ca97f128688825723f68f352a9d873",
+        "created": "2017-12-08T04:17:24.000+0000",
+        "status": "COMPLETE",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "VERIFY",
+        "details": {
+            "verify": {
+                "lastName": "SEARS",
+                "verified": "true"
+            },
+            "access": null,
+            "erasure": null
+        },
+        "userName": "bfftest1207",
+        "dpo": "Hannah Beth",
+        "reqAge": 19
+    },
+    {
+        "id": "f0965f529d8976d8e1aae47d1677d5b9",
+        "revision": "1-44f28d494197320b441313404a0b2a5d",
+        "requestId": "f0965f529d8976d8e1aae47d1677d5b9",
+        "created": "2017-12-08T03:47:26.000+0000",
+        "status": "APPROVED",
+        "userIds": [
+            {
+                "advantageNumber": "15FY3L6",
+                "cupid": "16489523"
+            }
+        ],
+        "type": "ACCESS",
+        "details": {
+            "verify": null,
+            "access": {
+                "category": "PROFILE_DATA",
+                "documents": null
+            },
+            "erasure": null
+        },
+        "userName": "test1207",
+        "reqAge": 19
+    }
+]

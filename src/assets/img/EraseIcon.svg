@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>EraseIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="52.2186 53 0.0006 53 0.0006 0.7812 52.2186 0.7812"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Updated-status-download" transform="translate(-900.000000, -457.000000)">
+            <g id="EraseIcon" transform="translate(900.000000, 456.000000)">
+                <polygon id="Fill-1" fill="#231F20" points="36.0802 40.3249 12.8942 17.1389 16.1372 13.8949 39.3222 37.0799"></polygon>
+                <polygon id="Fill-2" fill="#231F20" points="16.1369 40.3249 12.8949 37.0799 36.0799 13.8949 39.3229 17.1389"></polygon>
+                <g id="Group-5" transform="translate(0.000000, 0.219400)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <path d="M26.1086,5.3662 C14.2416,5.3662 4.5856,15.0222 4.5856,26.8902 C4.5856,38.7592 14.2416,48.4142 26.1086,48.4142 C37.9786,48.4142 47.6336,38.7592 47.6336,26.8902 C47.6336,15.0222 37.9786,5.3662 26.1086,5.3662 M26.1086,53.0002 C11.7126,53.0002 0.0006,41.2882 0.0006,26.8902 C0.0006,12.4922 11.7126,0.7812 26.1086,0.7812 C40.5056,0.7812 52.2186,12.4922 52.2186,26.8902 C52.2186,41.2882 40.5056,53.0002 26.1086,53.0002" id="Fill-3" fill="#231F20" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

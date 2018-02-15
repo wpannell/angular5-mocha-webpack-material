@@ -1,0 +1,193 @@
+/**
+*  UI-REFACTORED
+*    FROM --> ./legacy-web/src/main/sass/content/common/css/v3/partials/_variables.scss
+*    TO   --> ./webapps/shared-web/src/main/assets/css/v3/partials/_variables.scss
+**/
+
+///*------------------------------------*\
+//    >VARIABLES
+//\*------------------------------------*/
+$extremeHighlightBlue: #F0F7FC; // AA Extreme highlight blue
+$highlightBlue: #E1F0FA; // AA Highlight Blue
+$lightBlue: #4DB4FA; // AA Light Blue
+$brandBlue: #0078D2; // AA Blue (Brand Blue)
+$detroitBlue: #0061AB; // AA Button Blue
+$darkBlue: #00467F; // AA Dark Blue
+$teal: #B1E1EB; // AA Teal
+$lightTeal: #EFF9FB; // AA Light Teal
+
+$white: #FFFFFF; // AA White
+$green: #008712; // AA Green
+$yellowGreen: #D1D532; // AA Yellow-Green
+$lightOrange: #FAAF00; // AA Light Orange
+$orange: #D14904; // AA Orange
+$red: #F52305; // AA Red
+$darkRed: #C30019; // AA Dark Red
+$luckyPurple: #931982; // AA Lucky Purple
+
+$ultraLightGray: #EBEFF0; // AA Ultra Light Gray
+$lightGray: #D0DAE0; // AA Light Gray
+$gray: #9DA6AB; // AA Gray
+$mediumGray: #627A88; // AA Medium Gray
+$darkGray: #36495A; // AA Dark Gray
+$cadetGray: #536773; //AA Cadet Gray
+$darkCadetGray: #465762; //AA Dark Cadet Gray
+$black: #131313; // Black
+$superUltraLightGray: #F5F5F7; // AA Super Ultra Light Gray
+$extremeUltraLightGray: #FAFBFB; // AA Extreme Ultra Light Gray
+$halfwayLightGray: #E7ECEF; // AA halfway light Gray
+$tableLightGray: #F3F5F6;   // AA Table Light Gray
+
+// Legacy variables to maintain compatibility
+$gray01: $ultraLightGray; // AA Ultra Light Gray
+$gray02: $lightGray; // AA Light Gray
+$gray03: $gray; // AA Gray
+$gray04: $mediumGray; // AA Medium Gray
+$gray05: $darkGray; // AA Dark Gray
+
+//
+// Elite Tier colors
+// These are NOT FINAL, based on concepts by Dave Jennings and Mike Headley
+//
+$tierREGDark: $darkBlue;
+$tierREGMid: $brandBlue;
+$tierREGLight: $lightBlue;
+
+
+$tierGLDDark: #73652B;
+$tierGLDMid: #786931;
+$tierGLDLight: #FFF4DC;
+
+$tierPLTDark: #C7C8CA;
+$tierPLTMid: #E7E8E8;
+$tierPLTLight: #FDFDFD;
+
+$tierEXPDark: #000000;
+$tierEXPMid: #515151;
+$tierEXPLight: #C7C8CA;
+
+
+//
+// Brand-related text colors
+//
+$bodyColor: $darkGray;
+
+$linkColor: $brandBlue;
+$linkHoverColor: $brandBlue;
+$linkVisitedColor: $lightBlue;
+
+$altLinkColor: $darkGray;
+$altLinkHoverColor: $brandBlue;
+$altLinkVisitedColor: $darkGray;
+
+$headingsColor: $brandBlue;
+$altHeadingsColor: $mediumGray;
+
+$focusColor: #B0D1E8;
+
+//
+// Typography
+//
+
+$americanFontPath: "/content/fonts/american-v2/" !default;
+$americanIconFontPath: "/content/fonts/icons/" !default;
+$americanImgPath: "/content/images/" !default;
+
+$standardFontFamily: Arial, sans-serif;
+$sansFontFamilyLight: "AmericanSansLight", Helvetica, Arial, sans-serif;
+$sansFontFamilyRegular: "AmericanSans", Helvetica, Arial, sans-serif;
+$sansFontFamilyMedium: "AmericanSansMedium", Calibri, Helvetica, Arial, sans-serif;
+
+$baseFontSize: 14;
+$baseFontFamily: $standardFontFamily;
+$baseLineHeight: 20px;
+
+//
+// Font sizes (in pixels)
+//
+$lg-size: 56!default;
+$h1-size: 38!default;
+$h2-size: 30!default;
+$h3-size: 24!default;
+$h4-size: 18!default;
+$h5-size: 16!default;
+$h6-size: 14!default;
+$sm-size: 12!default;
+$vsm-size: 10!default;
+$med-size: 21!default;
+$reg-size: 27!default;
+
+$fontSizes: (
+    alpha: (
+        desktop: $h1-size,
+        mobile: 32
+    ),
+    beta: (
+        desktop: $h2-size,
+        mobile: 27
+    ),
+    gamma: (
+        desktop: $h3-size,
+        mobile: 21
+    ),
+    delta: (
+        desktop: $h4-size,
+        mobile: 18
+    ),
+    epsilon: (
+        desktop: $h5-size,
+        mobile: 16
+    ),
+    zeta: (
+        desktop: $h6-size,
+        mobile: 15
+    )
+);
+
+$lineHeightIncrement: 6!default;
+$lg-lineHeight: $baseLineHeight * 3.1;
+$h1-lineHeight: $baseLineHeight * 2.2;
+$h2-lineHeight: $baseLineHeight * 1.8;
+$h3-lineHeight: $baseLineHeight * 1.5;
+$h4-lineHeight: $baseLineHeight * 1.2;
+$h5-lineHeight: $baseLineHeight * 1.1;
+$h6-lineHeight: $baseLineHeight;
+$sm-lineHeight: $baseLineHeight * 0.9;
+
+$icon-small:   12!default;
+$icon-default: 14!default;
+$icon-medium:  18!default;
+$icon-large:   24!default;
+$icon-xlarge:  54!default;
+$icon-xxlarge: 70!default;
+$icon-xxxlarge:86!default;
+
+// list spacing
+$baseListSpacing: 6px;
+
+//
+// This is the base64-encoded dropdown triangle used in dropdown triggers such
+// as the country/language and account status in the header, as well as <select>
+// inputs in forms.
+//
+$dropdownTriangle: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+
+//
+// GRID-VARIABLES
+//
+
+$fluid: false!default;
+
+$gridColumns: 12;
+$gridColumnWidth: 64px;
+$gridGutterWidth: 22px;
+$gridHeroWidth: 90px;
+$gridHeroHeightOffset: 85px;
+
+$gridTotalGutter: $gridColumns * $gridColumnWidth + $gridColumns * $gridGutterWidth;
+
+$gridTotal: $gridTotalGutter - $gridGutterWidth;
+
+$fluidGridColumnWidth: percentage($gridColumnWidth / $gridTotalGutter);
+$fluidGridGutterWidth: percentage($gridGutterWidth / $gridTotalGutter);
+$fixedContainerWidth:   ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));

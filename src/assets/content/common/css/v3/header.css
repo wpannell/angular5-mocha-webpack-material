@@ -1,0 +1,138 @@
+#header {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    /* padding: 0 15px;*/
+    width: 100%;
+  }
+  #header > .inner {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    display: block;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    position: static;
+    width: 100%;
+    *zoom: 1;
+    /* margin: 0 auto;  */
+    max-width: 1000px;
+    width: auto;
+  }
+  #header > .inner > .module {
+    position: relative;
+  }
+  #header > .inner > .module:before,
+  #header > .inner > .module:after {
+    content: " ";
+    display: table;
+  }
+  #header > .inner > .module:after {
+    clear: both;
+  }
+  #header > .inner > .module.a {
+    padding: 20px 0;
+  }
+  #header > .inner > .module.a #logo {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 10px 0;
+    max-width: 321.84px;
+  }
+  #header > .inner > .module.a #profileWidget {
+    font-size: 0.75em;
+    bottom: 10px;
+    color: #627a88;
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+  }
+  #header > .inner > .module.a #profileWidget a {
+    font-size: 1em;
+    text-decoration: none;
+  }
+  #header > .inner > .module.a #profileWidget .bookmarkCounter button.btn {
+    background: transparent none;
+    color: #36495a;
+    padding: 0;
+  }
+  #header > .inner > .module.b #menu {
+    background: #4DB4FA none;
+  }
+  #header > .inner > .module.b #menu:before,
+  #header > .inner > .module.b #menu:after {
+    content: " ";
+    display: table;
+  }
+  #header > .inner > .module.b #menu:after {
+    clear: both;
+  }
+  #header > .inner > .module.b #menu > li {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid white;
+    display: block;
+    float: left;
+    font-size: 1em;
+  }
+  #header > .inner > .module.b #menu > li:last-child,
+  #header > .inner > .module.b #menu > li:last-of-type {
+    border-right: 0 none transparent;
+  }
+  #header > .inner > .module.b #menu > li > a {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    border: 0 none transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.1s ease-in 0.1s;
+    background: none #4DB4FA;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 18px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  #header > .inner > .module.b #menu > li a:hover {
+    opacity: 0.75;
+  }
+  #header > .inner > .module.b #menu > li.open > a {
+    opacity: 0.75;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu {
+    margin-top: -1px;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu > li {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu > li > a {
+    background: transparent none;
+    color: #0083ca;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu > li > a:hover {
+    background-color: #4DB4FA;
+    color: white;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu > li > a > span.image {
+    display: none;
+    visibility: hidden;
+  }
+  #header > .inner > .module.b #menu > li.dropdown .dropdown-menu > li > a > span.title {
+    display: block;
+  }
